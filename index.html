@@ -1,9 +1,109 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>종빈이의 홈</title>
-  </head>
-  <body>
-    <h1>어서오세요 여기는 종빈이의 홈 입니다.</h1>
-  </body>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>최종빈 자기소개</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      background: white;
+      max-width: 480px;
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      padding: 30px 25px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      color: #5A4FCF;
+      font-weight: 700;
+      font-size: 2.4rem;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+      font-weight: 500;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 15px 0;
+      color: #555;
+    }
+
+    .highlight {
+      color: #5A4FCF;
+      font-weight: 600;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      background-color: #5A4FCF;
+      color: white;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: 600;
+      box-shadow: 0 4px 10px rgba(90, 79, 207, 0.4);
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #453abf;
+    }
+
+    /* 모바일 반응형 */
+    @media (max-width: 480px) {
+      body {
+        padding: 15px;
+      }
+
+      .container {
+        padding: 25px 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>안녕하세요! 저는 <span class="highlight">최종빈</span>입니다.</h1>
+    <h2>초등학교 6학년 학생</h2>
+
+    <p>저는 <span class="highlight">게임</span>을 정말 좋아해요. 특히 모험 게임과 퍼즐 게임을 즐깁니다.</p>
+    <p>친구들과는 주로 운동장에서 축구를 하거나, 보드게임을 하면서 재미있게 놀아요.</p>
+    <p>코딩크루에서 <span class="highlight">블록코딩</span>을 배우고, 파이썬으로 <span class="highlight">터틀그래픽</span> 코딩도 해봤어요. 코딩하는 게 너무 재미있어요!</p>
+    <p>오늘은 처음으로 <span class="highlight">HTML</span>을 배우면서 자기소개 홈페이지를 만들고 있어요.</p>
+    <p>앞으로는 더 어려운 프로그래밍 언어도 배우고, 나만의 게임도 만들어 보고 싶어요.</p>
+    <p>취미는 게임, 코딩뿐만 아니라 책 읽기와 그림 그리기도 좋아해요. 미래에는 멋진 소프트웨어 개발자가 되는 게 꿈이에요!</p>
+
+    <a href="#" class="btn">저와 친구가 되어주세요! 😊</a>
+  </div>
+</body>
 </html>
